@@ -1,0 +1,526 @@
+
+*{
+    font-family: Montserrat;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background: url(../images/head_name.jpg) center center/cover no-repeat;
+    height: 637px;
+}
+.header_container{
+    padding: 35px 111px 145px 87px;
+}
+.header_info{
+    display: flex;
+    justify-content: space-between;
+}
+.header_connect{
+    text-align: right;
+}
+.header_phone{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header_whatsapp{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.header_title{
+    margin-top: 162px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header_title>span{
+    color: #009D3F;
+}
+.header_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 315px;
+    height: 50px;
+    background: #009D3F;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header_btn:hover{
+    box-shadow: 2px 2px 5px #009D3F;
+    transition: all 0.5s;
+}
+
+.article_container{
+    max-width: 1280px;
+    margin: 66px auto 91px auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3A3A3A;
+}
+
+.airphoto_container{
+    padding: 0 80px 59px 87px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.airphoto_item{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 31px;
+}
+.airphoto_item:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.airphoto_info{
+    padding: 25px 26px 39px 25px;
+    background: #F8F7F7;
+}
+.airphoto_subheader{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+.airphoto_descr{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3E3E3E;
+}
+.airphoto_price{
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+.airphoto_price>span{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #009D3F;
+}
+.airphoto_btn{
+    margin-top: 30px;
+    width: 349px;
+    height: 46px;
+    background: #009D3F;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.airphoto_btn>div{
+    width: 195px;
+    margin-left: 15px;
+}
+.airphoto_btn:hover{
+    box-shadow: 2px 2px 5px #009D3F;
+    transition: all 0.5s;
+}
+
+.equipment_container{
+    width: 1236px;
+    margin-left: 87px;
+    display: flex;
+    margin-bottom: 97px;
+}
+.equipment_description{
+    margin-left: 34px;
+}
+.equipment_header{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+.equipment_descr{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.feedback_container{
+    position: relative;
+    width: 1280px;
+    margin-left: 98px;
+    background: #006227;
+    padding: 60px 243px 87px 60px;
+}
+.feedback_header{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.feedback_descr{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #009D3F;
+}
+.feedback_information{
+    max-width: 975px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.feedback_input{
+    width: 305px;
+    height: 69px;   
+    padding-left: 30px;  
+}
+.feedback_input>placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #878787;
+}
+.feedback_button{
+    width: 305px;
+    height: 69px;
+    background: #009D3F;
+    border: 4px solid #009D3F;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.feedback_button:hover{
+    box-shadow: 2px 2px 5px #009D3F;
+    transition: all 0.5s;
+}
+.feedback_check{
+    margin-top: 26px;
+    display: flex;
+}
+.feedback_checkbox{
+    width: 20px;
+    height: 20px;
+}
+.feedback_descrcheck{
+    margin-left: 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.feedback_descrcheck>a{
+    color: #009D3F;
+    text-decoration: none;
+}
+.feedback_descrcheck>a:hover{
+    text-decoration: underline;
+}
+.feedback_img{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+footer{
+    background: #006227;
+    margin-top: 83px;
+    height: 233px;
+    padding: 92px 112px 92px 80px;
+}
+.footer_wrapepr{
+    display: flex;
+}
+.footer_icons{
+    margin-left: 693px;
+}
+.footer_icon2{
+    margin-left: 15px;
+}
+.footer_work{
+    margin-left: 145px;
+}
+.footer_phone{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.footer_work-time{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+@media(max-width: 1440px){
+    body{
+        width: 1140px;
+    }
+    .container{
+        width: 1140px;
+        margin-left: 0;
+    }
+    article{
+        padding: 0 10px 0 10px;
+    }
+    .equipment{
+        padding: 0 10px 0 10px;
+    }
+    .equipment_description{
+        max-width: 680px;
+        min-height: 250px;
+    }
+    .feedback_container{
+        padding-right: 100px;
+    }
+    .footer_icons{
+        margin-left: 393px;
+    }
+}
+@media(max-width: 1139px){
+    body{
+        width: 992px;
+    }
+    .container{
+        width: 992px;
+        margin-left: 0;
+    }
+    .header_title{
+        margin-top: 120px;
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .header_btn{
+        margin-top: 105px;
+    }
+
+    .airphoto_container{
+        padding-left: 60px;
+        padding-right: 67px;
+    }
+    .equipment_description{
+        max-width: 532px;
+        min-height: 250px;
+    }
+    .feedback_container{
+        padding-right: 60px;
+    }
+    .feedback_input{
+        width: 270px;
+    }
+    .feedback_button {
+        width: 270px;
+    }
+    footer{
+        padding-right: 80px;
+    }
+    .footer_icons{
+        margin-left: 277px;
+    }
+}
+
+@media(max-width: 991px){
+    body{
+        width: 768px;
+    }
+    .container{
+        width: 768px;
+        margin-left: 0;
+    }
+    .header_container{
+        padding: 35px 60px 69px 60px;
+    }
+    .header_title{
+        margin-top: 120px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .airphoto_container{
+        justify-content: center;
+    }
+    .equipment_container{
+        display: block;
+        text-align: center;
+    }
+    .equipment_description{
+        max-width: 100%;
+        min-height: 250px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .feedback_img{
+        display: none;
+    }
+    .feedback_input{
+        width: 200px;
+    }
+    .feedback_button {
+        width: 200px;
+    }
+    footer{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .footer_icons{
+        margin-left: 128px;
+    }
+    .footer_work{
+        margin-left: 125px;
+    }
+    
+}
+
+@media(max-width: 767px){
+    body{
+        width: 576px;
+    }
+    .container{
+        width: 576px;
+        margin-left: 0;
+    }
+    .header_title{
+        margin-top: 120px;
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .header_btn{
+        margin-top: 130px;
+    }
+    .article_container{
+        width: 100%;
+        text-align: center;
+    }
+    .feedback_container{
+        padding: 30px 20px;
+    }
+    .feedback_information{
+        flex-direction: column;
+    }
+    .feedback_input{
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .feedback_button {
+        width: 280px;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .footer_icons{
+        margin-left: 70px;
+    }
+    .footer_work{
+        margin-left: 70px;
+    }
+}
+
+@media(max-width: 575px){
+    body{
+        width: 320px;
+    }
+    .container{
+        width: 320px;
+        margin-left: 0;
+    }
+    .header_container{
+        padding: 30px 10px;
+    }
+    .header_info{
+        display: block;
+        text-align: center;
+    }
+    .header_connect{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header_title{
+        font-size: 28px;
+    }
+    .header_btn{
+        width: 290px;
+    }
+    article{
+        padding: 0;
+    }
+    .article_container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .airphoto_item{
+        width: 320px;
+    }
+    .airphoto_btn{
+        width: 270px;
+    }
+    .airphoto_container{
+        margin-left: 3px;
+    }
+    .equipment{
+        padding: 0;
+    }
+    .equipment_descr{
+        padding: 0 10px 0 10px;
+    }
+    .equipment_container>img{
+        width: 100%;
+    }
+    .feedback_header{
+        font-size: 30px;
+    }
+    .feedback_checkbox{
+        width: 35px;
+    }
+    footer{
+        padding: 20px 10px;
+    }
+    .footer_wrapepr{
+        display: block;
+        text-align: center;
+    }
+    .footer_icons{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .footer_work{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .footer_work-time{
+        text-align: center;
+    }
+}
