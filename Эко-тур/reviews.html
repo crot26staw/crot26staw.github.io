@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эко-тур</title>
+    <link  rel= "apple-touch-icon" size  = "57x57"  href= "/apple-icon-57x57.png" > 
+    <link  rel= "apple-touch-icon"  size= "60x60"  href= "/apple -icon-60x60.png" > 
+    <link  rel= "apple-touch-icon" size  = "72x72"  href= "/apple-icon-72x72.png" > 
+    <link  rel= "apple-touch-icon"  size= "76x76"  href= "/apple-icon-76x76.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "114x114"  href = "/apple-icon-114x114.png"> 
+    <link  rel= "apple-touch-icon" size  = "120x120 "  href= "/apple-icon-120x120.png" > 
+    <link  rel= "apple-touch-icon" size  = "144x144"  href= "/ apple-icon-144x144.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "152x152"  href= "/apple-icon-152x152.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "180x180"  href= "/apple-icon-180x180.png" > 
+    <ссылка  rel= "icon"  type= "image/png " size  = "192x192"  href= "/android-icon-192x192.png" > 
+    <link  rel= "icon"  type= "image/png" size  = "32x32"  href= "/favicon-32x32.png" > 
+    <link  rel= "icon"  тип= "изображение/png"  размеры= "96x96"  href= "/favicon-96x96.png" > 
+    <ссылка  rel= "значок"  тип= "изображение/png"  размеры= "16x16"  href= "/favicon-16x16. png" > 
+    <ссылка  отн = "манифест" href= "/manifest.json" > 
+    <мета -  имя="msapplication-TileColor"  content= "#ffffff" > 
+    <meta  name= "msapplication-TileImage"  content= "/ms-icon-144x144.png" > 
+    <meta  name= "theme-color"  content= "#ffffff" >
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="head-top-wrappepr">
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo head-logo">
+                    <a href="#"><img src="icons/logo.svg" alt="Логотип"></a>
+                </div>
+                <nav>
+                    <ul class="nav-lists">
+                        <li class="nav-list"><a class="nav-list-link nav-list-link-active" href="/index.html">Главная</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/tours.html">Туры</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/placement.html">Размещение</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/about.html">Об Адыгеи</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Отзывы</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-wrapper header-icon-wrapper">
+                    <a class="icon-link icon-link-vk" href="#"><img src="icons/vk-icon.svg" alt="Иконка ВКонтакте"></a>
+                    <a class="icon-link icon-link-insta" href="#"><img src="icons/insta-icon.svg" alt="Иконка инстаграмма"></a>
+                    <a class="icon-link icon-link-wa" href="#"><img src="icons/wa-icon.svg" alt="Иконка вотс-апа"></a>
+                </div>
+                <div class="phone header-phone"><a class="header-phone-link" href="tel:+79682702338">8 968 270-23-38</a></div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="container">
+            <div class="navigation">
+                <ul class="navigation-lists">
+                    <a class="navigation-link navigation-link-main" href="/index.html"><li class="navigation-list">Главная</li></a>
+                    <span class="navigation-arrow">></span>
+                    <a class="navigation-link navigation-link-tours" href="/tours.html"><li class="navigation-list">Туры</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            const header =  document.querySelector('header');
+            header.style.background = `url(../images/bacground/reviews-bg.png)`;
+            header.style.backgroundRepeat = 'no-repeat';
+            if(window.screen.width < 900){
+                header.style.paddingBottom = '140rem';
+            } else{
+                header.style.paddingBottom = '377rem';
+            }
+        </script>
+
+    </header>
+
+    <main>
+        <section class="rev">
+            <div class="container">
+                <h2 class="rev-title all-title">Отзывы</h2>
+                <div class="rev-wrapper">
+                    <div class="left-wrapper">
+                        <article class="rev-item">
+                            <p class="rev-item-name">Анастасия</p>
+                            <p class="rev-item-date">14 июня 2018 г.</p>
+                            <p class="rev-item-descr">
+                                Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...
+                            </p>
+                        </article>
+                        <article class="rev-item">
+                            <p class="rev-item-name">Анастасия</p>
+                            <p class="rev-item-date">14 июня 2018 г.</p>
+                            <p class="rev-item-descr">
+                                Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...
+                            </p>
+                        </article>
+                        <article class="rev-item">
+                            <p class="rev-item-name">Анастасия</p>
+                            <p class="rev-item-date">14 июня 2018 г.</p>
+                            <p class="rev-item-descr">
+                                Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...
+                            </p>
+                        </article>
+                        <article class="rev-navlist">
+                            <button class="rev-navlist-btn rev-navlist-btn-prev">&lt;</button>
+                            <ul class="rev-navlist-lists">
+                                <a class="rev-navlist-list-link" href="#"><li class="rev-navlist-list">1</li></a>
+                                <a class="rev-navlist-list-link" href="#"><li class="rev-navlist-list">2</li></a>
+                                <a class="rev-navlist-list-link" href="#"><li class="rev-navlist-list">3</li></a>
+                                <a class="rev-navlist-list-link" href="#"><li class="rev-navlist-list">4</li></a>
+                                <a class="rev-navlist-list-link" href="#"><li class="rev-navlist-list">5</li></a>
+                            </ul>
+                            <button class="rev-navlist-btn rev-navlist-btn-next">&gt;</button>
+                        </article>
+                    </div>
+                    <form class="comment-form" action="">
+                        <img class="comment-form-img" src="icons/big-img-comment.svg" alt="">
+                        <div class="comment-form-wrapp">
+                            <h3 class="comment-form-title">Оставье свой отзыв</h3>
+                            <p class="comment-form-subtitle comment-form-youname">Ваше имя</p>
+                            <div class="comment-form-input-name-wrapp">
+                                <input class="comment-form-input comment-form-input-name" type="text" name="name" placeholder="Иванов Инва Иванович" required>
+                            </div>
+                            <p class="comment-form-subtitle comment-form-youmail">Электронная почта</p>
+                            <div class="comment-form-input-email-wrapp">
+                                <input class="comment-form-input comment-form-input-email" type="email" name="email" placeholder="Введите элетронную почту" required>
+                            </div>
+                            <p class="comment-form-subtitle comment-form-comment">Комментарий/пожелания</p>
+                            <textarea class="comment-form-input-comment" name="comment" id="" cols="30" rows="10" required></textarea>
+                            <div class="comment-form-confid">
+                                <input id="chck-1" class="comment-form-checkbox" type="checkbox" required>
+                                <p class="comment-form-confid-descr">Подтверждаю, что я ознакомлен с <br> <a href="">Политикой конфиденциальности</a></p>
+                                <label class="comment-form-checkbox-label" for=""></label>
+                            </div>
+                            <button class="comment-form-btn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="head-top-wrappepr">
+                <div class="logo">
+                    <a href="#"><img src="icons/logo.svg" alt="Логотип"></a>
+                </div>
+                <nav>
+                    <ul class="nav-lists">
+                        <li class="nav-list"><a class="nav-list-link nav-list-link-active" href="/index.html">Главная</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/tours.html">Туры</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/placement.html">Размещение</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Об Адыгеи</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Отзывы</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-wrapper header-icon-wrapper">
+                    <a class="icon-link icon-link-vk" href="#"><img src="icons/vk-icon.svg" alt="Иконка ВКонтакте"></a>
+                    <a class="icon-link icon-link-insta" href="#"><img src="icons/insta-icon.svg" alt="Иконка инстаграмма"></a>
+                    <a class="icon-link icon-link-wa" href="#"><img src="icons/wa-icon.svg" alt="Иконка вотс-апа"></a>
+                </div>
+                <div class="phone header-phone"><a class="header-phone-link" href="tel:+79682702338">8 968 270-23-38</a></div>
+            </div>
+            <div class="line"></div>
+            <div class="footer-info">
+                <a href="#" class="foot-text agreement">Пользовательское соглашение</a>
+                <a href="#" class="foot-text confidecial">Политика конфиденциальности</a>
+                <p class="foot-text foot-descr">
+                    © 2016—2022 ООО «Большая Страна». ИНН/КПП 5908078160/590801001 ОГРН 1185958020533 <br>
+                    Номер в реестре Роскомнадзора № 59-18-006319 (Приказ № 321 от 11.10.2018) <br>
+                    Полное или частичное копирование изображений и текстов возможно только с указанием активной ссылки на сайт Большая Страна.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>        

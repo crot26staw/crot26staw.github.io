@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эко-тур</title>
+    <link  rel= "apple-touch-icon" size  = "57x57"  href= "/apple-icon-57x57.png" > 
+    <link  rel= "apple-touch-icon"  size= "60x60"  href= "/apple -icon-60x60.png" > 
+    <link  rel= "apple-touch-icon" size  = "72x72"  href= "/apple-icon-72x72.png" > 
+    <link  rel= "apple-touch-icon"  size= "76x76"  href= "/apple-icon-76x76.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "114x114"  href = "/apple-icon-114x114.png"> 
+    <link  rel= "apple-touch-icon" size  = "120x120 "  href= "/apple-icon-120x120.png" > 
+    <link  rel= "apple-touch-icon" size  = "144x144"  href= "/ apple-icon-144x144.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "152x152"  href= "/apple-icon-152x152.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "180x180"  href= "/apple-icon-180x180.png" > 
+    <ссылка  rel= "icon"  type= "image/png " size  = "192x192"  href= "/android-icon-192x192.png" > 
+    <link  rel= "icon"  type= "image/png" size  = "32x32"  href= "/favicon-32x32.png" > 
+    <link  rel= "icon"  тип= "изображение/png"  размеры= "96x96"  href= "/favicon-96x96.png" > 
+    <ссылка  rel= "значок"  тип= "изображение/png"  размеры= "16x16"  href= "/favicon-16x16. png" > 
+    <ссылка  отн = "манифест" href= "/manifest.json" > 
+    <мета -  имя="msapplication-TileColor"  content= "#ffffff" > 
+    <meta  name= "msapplication-TileImage"  content= "/ms-icon-144x144.png" > 
+    <meta  name= "theme-color"  content= "#ffffff" >
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="head-top-wrappepr">
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo head-logo">
+                    <a href="#"><img src="icons/logo.svg" alt="Логотип"></a>
+                </div>
+                <nav>
+                    <ul class="nav-lists">
+                        <li class="nav-list"><a class="nav-list-link nav-list-link-active" href="/index.html">Главная</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/tours.html">Туры</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/placement.html">Размещение</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/about.html">Об Адыгеи</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Отзывы</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-wrapper header-icon-wrapper">
+                    <a class="icon-link icon-link-vk" href="#"><img src="icons/vk-icon.svg" alt="Иконка ВКонтакте"></a>
+                    <a class="icon-link icon-link-insta" href="#"><img src="icons/insta-icon.svg" alt="Иконка инстаграмма"></a>
+                    <a class="icon-link icon-link-wa" href="#"><img src="icons/wa-icon.svg" alt="Иконка вотс-апа"></a>
+                </div>
+                <div class="phone header-phone"><a class="header-phone-link" href="tel:+79682702338">8 968 270-23-38</a></div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="container">
+            <div class="navigation">
+                <ul class="navigation-lists">
+                    <a class="navigation-link navigation-link-main" href="/index.html"><li class="navigation-list">Главная</li></a>
+                    <span class="navigation-arrow">></span>
+                    <a class="navigation-link navigation-link-tours" href="/tours.html"><li class="navigation-list">Туры</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            const header =  document.querySelector('header');
+            header.style.background = `url(../images/bacground/ex-tur-adige-bg.png)`;
+            header.style.backgroundRepeat = 'no-repeat';
+            if(window.screen.width < 900){
+                header.style.paddingBottom = '140rem';
+            } else{
+                header.style.paddingBottom = '377rem';
+            }
+        </script>
+
+    </header>
+
+    <main>
+        <section class="excurs">
+            <div class="container container-excurs">
+                <div class="glob-wrapper">
+                    <h2 class="excurs-title all-title">Экскурсионный тур в горы Адыгеи</h2>
+                    <p class="excurs-descr">
+                        Тур проводится круглый год, кроме майских и новогодних праздников. Заезд каждое воскресенье. Выезд в субботу.
+                        <br><br>
+                        Горы и реки, водопады и пещеры, посещение умиротворенных лощин и святых мест, конные прогулки, термальные источники, плато Лаго-Наки и Гранитный каньон – всё это ждёт Вас в туре «Экскурсионный». Вы пройдете по глубокому живописному ущелью Руфабго и увидите 5 водопадов. Побываете в пещерах, сформировавшихся тысячи лет назад, и пройдете маршрут для любителей активного туризма. Во время конной прогулки насладитесь окружающими пейзажами, а в один из дней программы Вас ждет запоминающийся вояж к скале Чертов палец, откуда открывается захватывающий вид на окрестности. Ну а вершиной путешествия станет посещение уникального плато Лаго-Наки.
+                        <br><br>
+                        При проведении программы тура возможен перенос экскурсий по дням и времени начала экскурсий при полном выполнении всех пунктов программы. Окончательное формирование маршрутов дня и определение времени начала и окончания мероприятий на туре происходит в день заезда.
+                    </p>
+                    <div class="excurs-sliders-wrapper">
+                        <div class="excurs-sliders">
+                            <div class="excurs-slides"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="excurs-slides"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="excurs-slides"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="excurs-slides"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="excurs-slides"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="excurs-slides"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                        </div>
+                        <div class="excurs-nav-sliders">
+                            <div class="excurs-nav-slides"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="excurs-nav-slides"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="excurs-nav-slides"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="excurs-nav-slides"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="excurs-nav-slides"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="excurs-nav-slides"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tours-book">
+                    <p class="tour_adig-item-data-price tours-book-price">от <span>24 700₽</span> /чел. </p>
+                    <div class="tour_adig-item-info-period tours-book-period">
+                        <span class="tour_adig-item-info-period-sun tours-book-period-sun">7 дней</span>
+                        <span class="tour_adig-item-info-period-moon tours-book-period-moon">6 ночей</span>
+                    </div>
+                    <a class="reserv" href=""><button class="reserv-btn tours-book-reserv-btn">Забронировать</button></a>
+                    <form class="tour_adig-item-data-form tours-book-form" action="">
+                        <p class="tour_adig-item-data-title">Даты набора групп</p>
+                        <div class="select-wrapper">
+                            <select class="input-date tour_adig-item-data-input-date" name="date" id="">
+                                <option class="input-date-text" value="24 июл. - 28 июл.">24 июл. - 28 июл.</option>
+                                <option class="input-date-text" value="25 июл. - 29 июл.">25 июл. - 29 июл.</option>
+                                <option class="input-date-text" value="26 июл. - 30 июл.">26 июл. - 30 июл.</option>
+                            </select>
+                        </div>
+                    </form>
+                    <div class="tour_adig-item-info-wrapp-dwelling tours-book-dwelling">
+                        <p class="tour_adig-item-info-wrapp-dwelling-title">Проживание</p>
+                        <div class="tour_adig-item-info-wrapp-dwelling-wrapp tours-book-dwelling-wrapp">
+                            <a class="tour_adig-item-info-wrapp-dwelling-btn tour_adig-item-info-wrapp-dwelling-btn-bead" href="#">Рябиновые бусы</a>
+                            <a class="tour_adig-item-info-wrapp-dwelling-btn tour_adig-item-info-wrapp-dwelling-btn-lavanda tours-book-dwelling-btn-lavanda" href="#">Горная лаванда</a>
+                        </div>
+                    </div>
+                    <div class="tour_adig-item-info-wrapp-complexity tours-book-complexity">
+                        <p class="tour_adig-item-info-wrapp-complexity-title">Сложность</p>
+                        <ul class="tour_adig-item-info-wrapp-complexity-lists">
+                            <li class="tour_adig-item-info-wrapp-complexity-list tour_adig-item-info-wrapp-complexity-list-active"></li>
+                            <li class="tour_adig-item-info-wrapp-complexity-list tour_adig-item-info-wrapp-complexity-list-active"></li>
+                            <li class="tour_adig-item-info-wrapp-complexity-list tour_adig-item-info-wrapp-complexity-list-active"></li>
+                            <li class="tour_adig-item-info-wrapp-complexity-list"></li>
+                            <li class="tour_adig-item-info-wrapp-complexity-list"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="impress">
+            <div class="container">
+                <div class="glob-wrapper">
+                    <h2 class="impress-title">Главные впечатления</h2>
+                    <div class="impress-wrapepr">
+                        <article class="impress-item">
+                            <div class="impress-item-img"><img src="images/main-images/dop-info_4.png" alt=""></div>
+                            <div class="impress-item-text-wrapp">
+                                <h4 class="impress-item-text-title">Гостевые дома «Рябиновые бусы» и «Горная лаванда»</h4>
+                                <p class="impress-item-text-descr">
+                                    Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...
+                                </p>
+                            </div>
+                        </article>
+                        <article class="impress-item">
+                            <div class="impress-item-img"><img src="images/main-images/dop-info_4.png" alt=""></div>
+                            <div class="impress-item-text-wrapp">
+                                <h4 class="impress-item-text-title">Гостевые дома «Рябиновые бусы» и «Горная лаванда»</h4>
+                                <p class="impress-item-text-descr">
+                                    Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...
+                                </p>
+                            </div>
+                        </article>
+                        <article class="impress-item">
+                            <div class="impress-item-img"><img src="images/main-images/dop-info_4.png" alt=""></div>
+                            <div class="impress-item-text-wrapp">
+                                <h4 class="impress-item-text-title">Гостевые дома «Рябиновые бусы» и «Горная лаванда»</h4>
+                                <p class="impress-item-text-descr">
+                                    Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="programms">
+            <div class="container">
+                <div class="glob-wrapper">
+                    <div class="programms-head">
+                        <h2 class="programms-head-title">Программа тура</h2>
+                        <p class="programms-head-btn">Раскрыть всё</p>
+                    </div>
+                    <div class="programms-wrapper">
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="programms-item">
+                            <div class="programms-item-min_wrapp">
+                                <div class="programms-item-day">1 день</div>
+                                <h4 class="programms-item-title">Наименование программы</h4>
+                            </div>
+                            <span class="programms-item-arrow"></span>
+                            <div class="programms-item-info ">
+                                <p class="programms-item-info-time">09:30 - 10:30</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре на ЖД вокзале - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">11:00 - 12:00</p>
+                                <p class="programms-item-info-descr">Встреча в Краснодаре в аэропорту - трансфер в гостевой дом.</p>
+                                <p class="programms-item-info-time">14:30</p>
+                                <p class="programms-item-info-descr">
+                                    Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                                </p>
+                                <p class="programms-item-info-time">15:30</p>
+                                <p class="programms-item-info-descr">
+                                    Отправление на геотермальный источник «Водная Ривьера». Источник включает 5 общих бассейнов с кремнистой минеральной питьевой лечебно-столовой водой под открытым небом, глубина скважины 1800 метров, а температура воды в бассейнах варьируется от +20 до +39 градусов. Такие воды практически не имеют противопоказаний для использования, активированная кремнием вода расслабляет тело, помогает в лечении ряда заболеваний и используется в косметических целях.
+                                </p>
+                                <p class="programms-item-info-time">19:30</p>
+                                <p class="programms-item-info-descr">
+                                    Ужин в гостевом доме. В этот вечер, как и в любой другой, Вы также можете посетить сауну или баню на дровах, прогуляться по берегу реки Белой или по пешеходному подвесному мосту через реку, отдохнуть в беседках на территории гостевых домов.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <script src="js/programm.js"></script>
+        </section>
+
+        <section class="residence">
+            <div class="container">
+                <div class="glob-wrapper">
+                    <h2 class="residence-title">Проживание</h2>
+                    <article class="residence-item">
+                        <div class="residence-item-top-minwrapp">
+                            <h4 class="residence-item-title">Гостевой дом "Рябиновые бусы"</h4>
+                            <span class="residence-item-arrow residence-item-arrow-tourse"></span>
+                        </div>
+                        <div class="residence-wrapper residence-wrapper-tourse">
+                            <p class="residence-descr">
+                                Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                            </p>
+                            <div class="residence-sliders">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="residence-item">
+                        <div class="residence-item-top-minwrapp">
+                            <h4 class="residence-item-title">Гостевой дом "Рябиновые бусы"</h4>
+                            <span class="residence-item-arrow residence-item-arrow-tourse"></span>
+                        </div>
+                        <div class="residence-wrapper">
+                            <p class="residence-descr">
+                                Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                            </p>
+                            <div class="residence-sliders">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="residence-item">
+                        <div class="residence-item-top-minwrapp">
+                            <h4 class="residence-item-title">Гостевой дом "Рябиновые бусы"</h4>
+                            <span class="residence-item-arrow residence-item-arrow-tourse"></span>
+                        </div>
+                        <div class="residence-wrapper">
+                            <p class="residence-descr">
+                                Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                            </p>
+                            <div class="residence-sliders">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="residence-item">
+                        <div class="residence-item-top-minwrapp">
+                            <h4 class="residence-item-title">Гостевой дом "Рябиновые бусы"</h4>
+                            <span class="residence-item-arrow residence-item-arrow-tourse"></span>
+                        </div>
+                        <div class="residence-wrapper">
+                            <p class="residence-descr">
+                                Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                            </p>
+                            <div class="residence-sliders">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="residence-item">
+                        <div class="residence-item-top-minwrapp">
+                            <h4 class="residence-item-title">Гостевой дом "Рябиновые бусы"</h4>
+                            <span class="residence-item-arrow residence-item-arrow-tourse"></span>
+                        </div>
+                        <div class="residence-wrapper">
+                            <p class="residence-descr">
+                                Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                            </p>
+                            <div class="residence-sliders">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="residence-item">
+                        <div class="residence-item-top-minwrapp">
+                            <h4 class="residence-item-title">Гостевой дом "Рябиновые бусы"</h4>
+                            <span class="residence-item-arrow residence-item-arrow-tourse"></span>
+                        </div>
+                        <div class="residence-wrapper">
+                            <p class="residence-descr">
+                                Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                            </p>
+                            <div class="residence-sliders">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_2.png" alt="">
+                                <img class="residence-slide slide-imag" src="images/main-images/slide-img_1.png" alt="">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <div class="glob-wrapper">
+                    <h2 class="price-title">Цены</h2>
+                    <div class="price-wrapper">
+                        <article class="price-item">
+                            <div class="price-min-top-wrapp">
+                                <p class="price-date">09.01.22 - 19.03.22</p>
+                                <h4 class="price-subtitle">Стоимость тура при размещении в гостевом доме «Рябиновые бусы»</h4>
+                            </div>
+                            <span class="price-item-arrow"></span>
+                            <div class="price-min-bot-wrapp">
+                                <ul class="price-lists">
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Трехместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный однокомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместные однокомнатные апартаменты с камином</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер люкс</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер стандарт-мини</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Дополнительное место в номер (кресло-кровать)</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Доплата за одноместное размещение в двухместном номере</p>
+                                        <p class="price-list-price">9 000 ₽</p>
+                                    </li>
+                                </ul>
+                                <div class="price-discount-wrapp">
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 12 до 18 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-green">скидка 10%</p>
+                                    </div>
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 5 до 12 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-blue">скидка 15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="price-item">
+                            <div class="price-min-top-wrapp">
+                                <p class="price-date">09.01.22 - 19.03.22</p>
+                                <h4 class="price-subtitle">Стоимость тура при размещении в гостевом доме «Рябиновые бусы»</h4>
+                            </div>
+                            <span class="price-item-arrow"></span>
+                            <div class="price-min-bot-wrapp">
+                                <ul class="price-lists">
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Трехместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный однокомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместные однокомнатные апартаменты с камином</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер люкс</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер стандарт-мини</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Дополнительное место в номер (кресло-кровать)</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Доплата за одноместное размещение в двухместном номере</p>
+                                        <p class="price-list-price">9 000 ₽</p>
+                                    </li>
+                                </ul>
+                                <div class="price-discount-wrapp">
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 12 до 18 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-green">скидка 10%</p>
+                                    </div>
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 5 до 12 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-blue">скидка 15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="price-item">
+                            <div class="price-min-top-wrapp">
+                                <p class="price-date">09.01.22 - 19.03.22</p>
+                                <h4 class="price-subtitle">Стоимость тура при размещении в гостевом доме «Рябиновые бусы»</h4>
+                            </div>
+                            <span class="price-item-arrow"></span>
+                            <div class="price-min-bot-wrapp">
+                                <ul class="price-lists">
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Трехместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный однокомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместные однокомнатные апартаменты с камином</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер люкс</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер стандарт-мини</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Дополнительное место в номер (кресло-кровать)</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Доплата за одноместное размещение в двухместном номере</p>
+                                        <p class="price-list-price">9 000 ₽</p>
+                                    </li>
+                                </ul>
+                                <div class="price-discount-wrapp">
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 12 до 18 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-green">скидка 10%</p>
+                                    </div>
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 5 до 12 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-blue">скидка 15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="price-item">
+                            <div class="price-min-top-wrapp">
+                                <p class="price-date">09.01.22 - 19.03.22</p>
+                                <h4 class="price-subtitle">Стоимость тура при размещении в гостевом доме «Рябиновые бусы»</h4>
+                            </div>
+                            <span class="price-item-arrow"></span>
+                            <div class="price-min-bot-wrapp">
+                                <ul class="price-lists">
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Трехместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный однокомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместные однокомнатные апартаменты с камином</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер люкс</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер стандарт-мини</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Дополнительное место в номер (кресло-кровать)</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Доплата за одноместное размещение в двухместном номере</p>
+                                        <p class="price-list-price">9 000 ₽</p>
+                                    </li>
+                                </ul>
+                                <div class="price-discount-wrapp">
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 12 до 18 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-green">скидка 10%</p>
+                                    </div>
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 5 до 12 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-blue">скидка 15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="price-item">
+                            <div class="price-min-top-wrapp">
+                                <p class="price-date">09.01.22 - 19.03.22</p>
+                                <h4 class="price-subtitle">Стоимость тура при размещении в гостевом доме «Рябиновые бусы»</h4>
+                            </div>
+                            <span class="price-item-arrow"></span>
+                            <div class="price-min-bot-wrapp">
+                                <ul class="price-lists">
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Трехместный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный однокомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместные однокомнатные апартаменты с камином</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер комфорт</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Четырехместный двухкомнатный номер люкс</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Двухместный номер стандарт-мини</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Дополнительное место в номер (кресло-кровать)</p>
+                                        <p class="price-list-price">27 300 ₽</p>
+                                    </li>
+                                    <li class="price-list">
+                                        <p class="price-list-descr">Доплата за одноместное размещение в двухместном номере</p>
+                                        <p class="price-list-price">9 000 ₽</p>
+                                    </li>
+                                </ul>
+                                <div class="price-discount-wrapp">
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 12 до 18 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-green">скидка 10%</p>
+                                    </div>
+                                    <div class="price-discount-item">
+                                        <p class="price-discount-item-subtitle">Стоимость тура для детей от 5 до 12 лет</p>
+                                        <p class="price-discount-item-descr price-discount-item-descr-blue">скидка 15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="important">
+            <div class="container">
+                <div class="glob-wrapper">
+                    <h2 class="important-title">Важно знать</h2>
+                    <div class="important-wrapper">
+                        <article class="important-item">
+                            <h4 class="important-item-subtitle">Что входит в стоимость тура "Экскурсионный"</h4>
+                            <span class="important-item-arrow"></span>
+                            <ul class="important-item-lists">
+                                <li class="important-item-list">
+                                    Трансфер г. Краснодар – пос. Каменномостский – г. Краснодар. В Краснодаре две точки сбора для туристов – ЖД вокзал и аэропорт. Отъезд от ЖД вокзала не позднее 10:30, от аэропорта не позднее 12:00. Обратный трансфер из гостевого дома не позднее 10:00;
+                                </li>
+                                <li class="important-item-list">
+                                    Проживание в гостевых домах Рябиновые Бусы, Парк Хаджох, Отдых у реки, Горная Лаванда или На Аминовской в 2-3-4 местных номерах выбранной категории со всеми удобствами;
+                                </li>
+                                <li class="important-item-list">
+                                    Питание 3-х разовое, домашняя кухня (если программа дня предполагает возвращение на базу только вечером, то выдается ланч-бокс на обед и ужин в этот день включает и первое и второе блюдо). ВАЖНО! Для туристов, проживающих в ГД Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питание во время тура осуществляется на территории гостевого дома Рябиновые бусы. У туристов, проживающих в ГД Парк Хаджох питание в кафе на территории этого гостевого дома;
+                                </li>
+                                <li class="important-item-list">
+                                    Работа гидов по программе;
+                                </li>
+                                <li class="important-item-list">
+                                    Все трансферы по программе.
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="important-item">
+                            <h4 class="important-item-subtitle">Что не входит в стоимость тура "Экскурсионный"</h4>
+                            <span class="important-item-arrow"></span>
+                            <ul class="important-item-lists">
+                                <li class="important-item-list">
+                                    Трансфер г. Краснодар – пос. Каменномостский – г. Краснодар. В Краснодаре две точки сбора для туристов – ЖД вокзал и аэропорт. Отъезд от ЖД вокзала не позднее 10:30, от аэропорта не позднее 12:00. Обратный трансфер из гостевого дома не позднее 10:00;
+                                </li>
+                                <li class="important-item-list">
+                                    Проживание в гостевых домах Рябиновые Бусы, Парк Хаджох, Отдых у реки, Горная Лаванда или На Аминовской в 2-3-4 местных номерах выбранной категории со всеми удобствами;
+                                </li>
+                                <li class="important-item-list">
+                                    Питание 3-х разовое, домашняя кухня (если программа дня предполагает возвращение на базу только вечером, то выдается ланч-бокс на обед и ужин в этот день включает и первое и второе блюдо). ВАЖНО! Для туристов, проживающих в ГД Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питание во время тура осуществляется на территории гостевого дома Рябиновые бусы. У туристов, проживающих в ГД Парк Хаджох питание в кафе на территории этого гостевого дома;
+                                </li>
+                                <li class="important-item-list">
+                                    Работа гидов по программе;
+                                </li>
+                                <li class="important-item-list">
+                                    Все трансферы по программе.
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="important-item">
+                            <h4 class="important-item-subtitle">Что взять с собой на тур "Экскурсионный"</h4>
+                            <span class="important-item-arrow"></span>
+                            <ul class="important-item-lists">
+                                <li class="important-item-list">
+                                    Трансфер г. Краснодар – пос. Каменномостский – г. Краснодар. В Краснодаре две точки сбора для туристов – ЖД вокзал и аэропорт. Отъезд от ЖД вокзала не позднее 10:30, от аэропорта не позднее 12:00. Обратный трансфер из гостевого дома не позднее 10:00;
+                                </li>
+                                <li class="important-item-list">
+                                    Проживание в гостевых домах Рябиновые Бусы, Парк Хаджох, Отдых у реки, Горная Лаванда или На Аминовской в 2-3-4 местных номерах выбранной категории со всеми удобствами;
+                                </li>
+                                <li class="important-item-list">
+                                    Питание 3-х разовое, домашняя кухня (если программа дня предполагает возвращение на базу только вечером, то выдается ланч-бокс на обед и ужин в этот день включает и первое и второе блюдо). ВАЖНО! Для туристов, проживающих в ГД Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питание во время тура осуществляется на территории гостевого дома Рябиновые бусы. У туристов, проживающих в ГД Парк Хаджох питание в кафе на территории этого гостевого дома;
+                                </li>
+                                <li class="important-item-list">
+                                    Работа гидов по программе;
+                                </li>
+                                <li class="important-item-list">
+                                    Все трансферы по программе.
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="glob-wrapper">
+                    <h2>Отзывы</h2>
+                    <div class="reviews-wrapper reviews-wrapper-tours">
+                        <article class="reviews-item">
+                            <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                            <p class="reviews-item-name">Анастасия</p>
+                            <p class="reviews-item-date">14 июня 2018 г.</p>
+                            <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                        </article>
+                        <article class="reviews-item">
+                            <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                            <p class="reviews-item-name">Анастасия</p>
+                            <p class="reviews-item-date">14 июня 2018 г.</p>
+                            <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                        </article>
+                        <article class="reviews-item">
+                            <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                            <p class="reviews-item-name">Анастасия</p>
+                            <p class="reviews-item-date">14 июня 2018 г.</p>
+                            <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                        </article>
+                        <article class="reviews-item">
+                            <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                            <p class="reviews-item-name">Анастасия</p>
+                            <p class="reviews-item-date">14 июня 2018 г.</p>
+                            <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                        </article>
+                        <article class="reviews-item">
+                            <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                            <p class="reviews-item-name">Анастасия</p>
+                            <p class="reviews-item-date">14 июня 2018 г.</p>
+                            <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                        </article>
+                    </div>
+                    <button class="reviews-btn reviews-btn-tourse">Написать отзыв</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="head-top-wrappepr">
+                <div class="logo">
+                    <a href="#"><img src="icons/logo.svg" alt="Логотип"></a>
+                </div>
+                <nav>
+                    <ul class="nav-lists">
+                        <li class="nav-list"><a class="nav-list-link nav-list-link-active" href="/index.html">Главная</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/tours.html">Туры</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/placement.html">Размещение</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Об Адыгеи</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Отзывы</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-wrapper header-icon-wrapper">
+                    <a class="icon-link icon-link-vk" href="#"><img src="icons/vk-icon.svg" alt="Иконка ВКонтакте"></a>
+                    <a class="icon-link icon-link-insta" href="#"><img src="icons/insta-icon.svg" alt="Иконка инстаграмма"></a>
+                    <a class="icon-link icon-link-wa" href="#"><img src="icons/wa-icon.svg" alt="Иконка вотс-апа"></a>
+                </div>
+                <div class="phone header-phone"><a class="header-phone-link" href="tel:+79682702338">8 968 270-23-38</a></div>
+            </div>
+            <div class="line"></div>
+            <div class="footer-info">
+                <a href="#" class="foot-text agreement">Пользовательское соглашение</a>
+                <a href="#" class="foot-text confidecial">Политика конфиденциальности</a>
+                <p class="foot-text foot-descr">
+                    © 2016—2022 ООО «Большая Страна». ИНН/КПП 5908078160/590801001 ОГРН 1185958020533 <br>
+                    Номер в реестре Роскомнадзора № 59-18-006319 (Приказ № 321 от 11.10.2018) <br>
+                    Полное или частичное копирование изображений и текстов возможно только с указанием активной ссылки на сайт Большая Страна.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>    

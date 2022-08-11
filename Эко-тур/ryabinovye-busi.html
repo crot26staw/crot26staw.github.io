@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эко-тур</title>
+    <link  rel= "apple-touch-icon" size  = "57x57"  href= "/apple-icon-57x57.png" > 
+    <link  rel= "apple-touch-icon"  size= "60x60"  href= "/apple -icon-60x60.png" > 
+    <link  rel= "apple-touch-icon" size  = "72x72"  href= "/apple-icon-72x72.png" > 
+    <link  rel= "apple-touch-icon"  size= "76x76"  href= "/apple-icon-76x76.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "114x114"  href = "/apple-icon-114x114.png"> 
+    <link  rel= "apple-touch-icon" size  = "120x120 "  href= "/apple-icon-120x120.png" > 
+    <link  rel= "apple-touch-icon" size  = "144x144"  href= "/ apple-icon-144x144.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "152x152"  href= "/apple-icon-152x152.png" > 
+    <link  rel= "apple-touch-icon"  размеры = "180x180"  href= "/apple-icon-180x180.png" > 
+    <ссылка  rel= "icon"  type= "image/png " size  = "192x192"  href= "/android-icon-192x192.png" > 
+    <link  rel= "icon"  type= "image/png" size  = "32x32"  href= "/favicon-32x32.png" > 
+    <link  rel= "icon"  тип= "изображение/png"  размеры= "96x96"  href= "/favicon-96x96.png" > 
+    <ссылка  rel= "значок"  тип= "изображение/png"  размеры= "16x16"  href= "/favicon-16x16. png" > 
+    <ссылка  отн = "манифест" href= "/manifest.json" > 
+    <мета -  имя="msapplication-TileColor"  content= "#ffffff" > 
+    <meta  name= "msapplication-TileImage"  content= "/ms-icon-144x144.png" > 
+    <meta  name= "theme-color"  content= "#ffffff" >
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="head-top-wrappepr">
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo head-logo">
+                    <a href="#"><img src="icons/logo.svg" alt="Логотип"></a>
+                </div>
+                <nav>
+                    <ul class="nav-lists">
+                        <li class="nav-list"><a class="nav-list-link nav-list-link-active" href="/index.html">Главная</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/tours.html">Туры</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/placement.html">Размещение</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Об Адыгеи</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Отзывы</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-wrapper header-icon-wrapper">
+                    <a class="icon-link icon-link-vk" href="#"><img src="icons/vk-icon.svg" alt="Иконка ВКонтакте"></a>
+                    <a class="icon-link icon-link-insta" href="#"><img src="icons/insta-icon.svg" alt="Иконка инстаграмма"></a>
+                    <a class="icon-link icon-link-wa" href="#"><img src="icons/wa-icon.svg" alt="Иконка вотс-апа"></a>
+                </div>
+                <div class="phone header-phone"><a class="header-phone-link" href="tel:+79682702338">8 968 270-23-38</a></div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="container">
+            <div class="navigation">
+                <ul class="navigation-lists">
+                    <a class="navigation-link navigation-link-main" href="/index.html"><li class="navigation-list">Главная</li></a>
+                    <span class="navigation-arrow">></span>
+                    <a class="navigation-link navigation-link-tours" href="/placement.html"><li class="navigation-list">Размещение</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            const header =  document.querySelector('header');
+            header.style.background = `url(../images/bacground/placement-bg.png)`;
+            header.style.backgroundRepeat = 'no-repeat';
+            if(window.screen.width < 900){
+                header.style.paddingBottom = '140rem';
+            } else{
+                header.style.paddingBottom = '377rem';
+            }
+        </script>
+
+    </header>
+
+    <main>
+        <section class="ryabin">
+            <div class="container">
+                <h2 class="ryabin-title all-title">Гостевой дом «Рябиновые бусы»</h2>
+                <div class="ryabin-wrapper">
+                    <p class="ryabin-descr">
+                        Гостевой дом «Рябиновые бусы» — мы создали здесь атмосферу спокойствия и уюта. Дома-срубы из северной сосны влюбляют в себя с первого взгляда. В каждом номере свой санузел и душевая кабина, телевизор, холодильник, чайник. Детская площадка, небольшой прудик с мостиком, бесплатная парковка, беседки, баня, мангальная зона — все это утопает в зелени и щебетании птиц. Река Белая течет буквально в 30 метрах, а фотографии с подвесного моста через реку будут одними из лучших в вашей коллекции.
+                    </p>
+                    <div class="ryabin-wrap-sliders">
+                        <div class="ryabin-sliders">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_1.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_2.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_1.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_2.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_1.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_2.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_1.png" alt="">
+                            <img class="ryabin-slider" src="images/main-images/slide-img_2.png" alt="">
+                        </div>
+                        <div class="ryabin-nav-sliders">
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="ryabin-nav-slider"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hostel">
+            <div class="container">
+                <h2 class="hostel-title">Номера</h2>
+                <article class="residence-item residence-item-hostel">
+                    <div class="residence-item-top-minwrapp">
+                        <h4 class="residence-item-title">Двухместный номер “Комфорт”</h4>
+                        <span class="residence-item-arrow"></span>
+                    </div>
+                    <div class="residence-wrapper residence-wrapper-hostel">
+                        <p class="residence-descr residence-descr-hostel">
+                            Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                        </p>
+                        <div class="residence-sliders residence-sliders-hostel">
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="residence-item residence-item-hostel">
+                    <div class="residence-item-top-minwrapp">
+                        <h4 class="residence-item-title">Двухместный номер “Комфорт”</h4>
+                        <span class="residence-item-arrow"></span>
+                    </div>
+                    <div class="residence-wrapper residence-wrapper-hostel">
+                        <p class="residence-descr residence-descr-hostel">
+                            Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                        </p>
+                        <div class="residence-sliders residence-sliders-hostel">
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="residence-item residence-item-hostel">
+                    <div class="residence-item-top-minwrapp">
+                        <h4 class="residence-item-title">Двухместный номер “Комфорт”</h4>
+                        <span class="residence-item-arrow"></span>
+                    </div>
+                    <div class="residence-wrapper residence-wrapper-hostel">
+                        <p class="residence-descr residence-descr-hostel">
+                            Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                        </p>
+                        <div class="residence-sliders residence-sliders-hostel">
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="residence-item residence-item-hostel">
+                    <div class="residence-item-top-minwrapp">
+                        <h4 class="residence-item-title">Двухместный номер “Комфорт”</h4>
+                        <span class="residence-item-arrow"></span>
+                    </div>
+                    <div class="residence-wrapper residence-wrapper-hostel">
+                        <p class="residence-descr residence-descr-hostel">
+                            Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                        </p>
+                        <div class="residence-sliders residence-sliders-hostel">
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="residence-item residence-item-hostel">
+                    <div class="residence-item-top-minwrapp">
+                        <h4 class="residence-item-title">Двухместный номер “Комфорт”</h4>
+                        <span class="residence-item-arrow"></span>
+                    </div>
+                    <div class="residence-wrapper residence-wrapper-hostel">
+                        <p class="residence-descr residence-descr-hostel">
+                            Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                        </p>
+                        <div class="residence-sliders residence-sliders-hostel">
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="residence-item residence-item-hostel">
+                    <div class="residence-item-top-minwrapp">
+                        <h4 class="residence-item-title">Двухместный номер “Комфорт”</h4>
+                        <span class="residence-item-arrow"></span>
+                    </div>
+                    <div class="residence-wrapper residence-wrapper-hostel">
+                        <p class="residence-descr residence-descr-hostel">
+                            Обед, приготовленный поварами гостевого дома, включающий в себя разнообразные блюда домашней кухни. *Туристы, проживающие в гостевых домах Рябиновые бусы, Горная Лаванда, Отдых у реки и на Аминовской питаются в гостевом доме Рябиновые бусы. Расстояние до Рябиновых бус от Горной Лаванды – 50 метров, от Отдыха у реки – 200 метров, от на Аминовской – 400 метров. На завтрак туристы приходят самостоятельно, также возвращаются в свое средство размещения после ужина. **Туристы, проживающие в гостевом доме Парк Хаджох питаются на территории этого гостевого дома. ***Если программа дня предполагает возвращение на базу только к ужину, то выдается ланч-бокс на обед, а ужин в этот день включает и первое и второе блюдо.
+                        </p>
+                        <div class="residence-sliders residence-sliders-hostel">
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_2.png" alt=""></div>
+                            <div class="residence-slide residence-slide-hostel"><img src="images/main-images/slide-img_1.png" alt=""></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="pickup">
+            <div class="container pickup-container">
+                <p class="pickup-title">Самое время отдохнуть</p>
+                <a class="pickup-link" href="#"><button class="pickup-btn">Подобрать тур</button></a>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <h2>Отзывы</h2>
+                <div class="reviews-wrapper reviews-wrapper-main">
+                    <article class="reviews-item">
+                        <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                        <p class="reviews-item-name">Анастасия</p>
+                        <p class="reviews-item-date">14 июня 2018 г.</p>
+                        <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                    </article>
+                    <article class="reviews-item">
+                        <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                        <p class="reviews-item-name">Анастасия</p>
+                        <p class="reviews-item-date">14 июня 2018 г.</p>
+                        <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                    </article>
+                    <article class="reviews-item">
+                        <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                        <p class="reviews-item-name">Анастасия</p>
+                        <p class="reviews-item-date">14 июня 2018 г.</p>
+                        <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                    </article>
+                    <article class="reviews-item">
+                        <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                        <p class="reviews-item-name">Анастасия</p>
+                        <p class="reviews-item-date">14 июня 2018 г.</p>
+                        <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                    </article>
+                    <article class="reviews-item">
+                        <div class="reviews-item-icon"><img src="icons/comment-icon.svg" alt=""></div>
+                        <p class="reviews-item-name">Анастасия</p>
+                        <p class="reviews-item-date">14 июня 2018 г.</p>
+                        <p class="reviews-item-descr">Вниманию желающих отдохнуть в Адыгее предлагаются комфортабельные коттеджи с обустроенными номерами. Внутренняя отделка интерьера помещений выполнена из натурального дерева, что создает приятный расслабляющий микроклимат для отдыха...</p>
+                    </article>
+                </div>
+                <button class="reviews-btn">Написать отзыв</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="head-top-wrappepr">
+                <div class="logo">
+                    <a href="#"><img src="icons/logo.svg" alt="Логотип"></a>
+                </div>
+                <nav>
+                    <ul class="nav-lists">
+                        <li class="nav-list"><a class="nav-list-link nav-list-link-active" href="/index.html">Главная</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/tours.html">Туры</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/placement.html">Размещение</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="/about.html">Об Адыгеи</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Отзывы</a></li>
+                        <li class="nav-list"><a class="nav-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-wrapper header-icon-wrapper">
+                    <a class="icon-link icon-link-vk" href="#"><img src="icons/vk-icon.svg" alt="Иконка ВКонтакте"></a>
+                    <a class="icon-link icon-link-insta" href="#"><img src="icons/insta-icon.svg" alt="Иконка инстаграмма"></a>
+                    <a class="icon-link icon-link-wa" href="#"><img src="icons/wa-icon.svg" alt="Иконка вотс-апа"></a>
+                </div>
+                <div class="phone header-phone"><a class="header-phone-link" href="tel:+79682702338">8 968 270-23-38</a></div>
+            </div>
+            <div class="line"></div>
+            <div class="footer-info">
+                <a href="#" class="foot-text agreement">Пользовательское соглашение</a>
+                <a href="#" class="foot-text confidecial">Политика конфиденциальности</a>
+                <p class="foot-text foot-descr">
+                    © 2016—2022 ООО «Большая Страна». ИНН/КПП 5908078160/590801001 ОГРН 1185958020533 <br>
+                    Номер в реестре Роскомнадзора № 59-18-006319 (Приказ № 321 от 11.10.2018) <br>
+                    Полное или частичное копирование изображений и текстов возможно только с указанием активной ссылки на сайт Большая Страна.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
